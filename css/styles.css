@@ -1,0 +1,65 @@
+@font-face {
+    font-family: mifuente;
+    src: url(../font/Stardew_Valley.ttf)
+}
+
+body {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    }
+    .titulo {
+        text-align: center;
+        padding-top: 15vh;
+        font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        }
+    .botones {
+        display: flex;
+        justify-content: center; /* centra horizontal */
+        gap: 20px; /* espacio entre botones */
+        margin-top: 40px; /* separación del título */
+        }
+    button {
+        font-family: "Tiny5", system-ui;
+        font-size: 18px;
+        padding: 12px 24px;
+
+        border: 3px solid black;
+        border-radius: 0; /* quita lo redondo */
+
+        image-rendering: pixelated;
+
+        box-shadow: 
+        4px 4px 0px black; /* efecto pixel */
+
+        cursor: pointer;
+        }
+    .si {
+        background-color: #ff8fab;
+        color: white;
+        }
+
+.fondo-si {
+    background-image: url('../img/fondosi.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    background-color: black;
+    }
+
+.texto {
+    font-family: mifuente;
+    color: #7D4634;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 2%;
+    padding-top: 0.5%;
+}
+
+    
