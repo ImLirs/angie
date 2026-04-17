@@ -7,9 +7,14 @@
 </head>
 
 <body class="fondo-si">
-    <audio autoplay>
+    <audio id="miAudio">
         <source src="../audio/Children Yay Sound Effect (HD).mp3" type="audio/mpeg">
     </audio>
+    <script>
+        document.addEventListener('click', function() {
+            document.getElementById('miAudio').play();
+        }, { once: true });
+    </script>
     <div class="texto">
         
         <h2>Hola, Angie:</h2>

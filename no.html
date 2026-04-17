@@ -4,9 +4,14 @@
     </head>
     <body>
         <section class="fondono">
-            <audio autoplay>
+            <audio id="miAudio">
                 <source src="../audio/Cry Of The Unheard.mp3" type="audio/mpeg">
             </audio>
         </section>
+        <script>
+            document.addEventListener('click', function() {
+                document.getElementById('miAudio').play();
+            }, { once: true });
+        </script>
     </body>
 </html>
